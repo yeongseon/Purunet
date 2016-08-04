@@ -1,1 +1,1 @@
-web: python routes.py -p 5000
+web: gunicorn home:app
