@@ -7,3 +7,8 @@
      (https://community.nitrous.io/tutorials/deploying-a-flask-application-to-heroku)
 
 3. connect 127.0.0.1:5000 
+
+# Reference
+웹 폰트 적용 : http://koreawebdesign.com/webfont/
+
+# TOO

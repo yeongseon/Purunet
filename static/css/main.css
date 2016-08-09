@@ -1,3 +1,10 @@
+@font-face{
+font-family:jua;
+src:url('/webfont/BM_JUA.eot');
+src:local(※),
+	url('/webfont/BM_JUA.woff') format('woff');
+}
+
 /*
  * Sticky footer styles
  */
@@ -5,17 +12,18 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   margin: 0;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   padding: 0;
   padding-top: 50px;
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: 'BM JUA', '배달의민족 주아', 'Noto Sans', sans-serif;
   color: #444;
 }
 .starter-template {
-  padding: 40px 15px;
+  padding: 30px 15px;
   text-align: center;
 }
 .footer {
