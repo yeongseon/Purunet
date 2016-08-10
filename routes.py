@@ -19,6 +19,14 @@ def member1():
 def member2():
   return render_template('member2.html')
 
+@app.route('/member3')
+def member3():
+  return render_template('member3.html')
+
+@app.route('/member4')
+def member4():
+  return render_template('member4.html')
+
 @app.route('/recruit')
 def recruit():
   return render_template('recruit.html')
