@@ -1,3 +1,5 @@
+@import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+
 @font-face{
 font-family:jua;
 src:url('/webfont/BM_JUA.eot');
@@ -9,6 +11,7 @@ src:local(※),
  * Sticky footer styles
  */
 html {
+  font-family: 'BM JUA', '배달의민족 주아', 'Noto Sans', sans-serif;
   position: relative;
   min-height: 100%;
 }
