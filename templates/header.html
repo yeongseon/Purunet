@@ -5,7 +5,6 @@
 
 {% block head %}
 {{super()}}
-{{mymap.js}}
 <link rel="icon" href="../static/favicon.ico">
 {% endblock %}
 
@@ -22,23 +21,4 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Noto+Sans' type='text/css'>
 <link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
-{% endblock %}
-
-{% block content %}
-{% include "navbar.html" %}
-<div class="container">
-  <div class="starter-template">
-    <div class="page-header">
-      <h2>오시는 길</h2>
-    </div>
-    <div class="mymap" align="center">
-    {{mymap.html}}
-    </div>
-    <h3>상담문의</h3>
-    <h4>전라남도 나주시 중앙로 8</h4>
-    <h4>2층 금성출판사</h4>
-    <h4><i class="fa fa-mobile" aria-hidden="true"></i> 010-9877-6548</h4>
-  </div>
-</div>
-{% include "footer.html" %}
 {% endblock %}
