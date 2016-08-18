@@ -10,5 +10,6 @@
 
 # Reference
 웹 폰트 적용 : http://koreawebdesign.com/webfont/
+디렉토리 구조 : http://gouthamanbalaraman.com/blog/flask-app-directory-structure.html
 
 # TOO

@@ -1,4 +1,4 @@
-{% include "header.html" %}
+{% extends "layout.html" %}
 
 {% block content %}
 {% include "navbar.html" %}
@@ -10,5 +10,4 @@
     <img width="100%" height="=auto" src="{{ url_for('static', filename='img/member4/member4_3_1.JPG') }}"> <p> </p>
   </div>
 </div>
-{% include "footer.html" %}
 {% endblock  %}
